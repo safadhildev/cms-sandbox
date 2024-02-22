@@ -1,0 +1,61 @@
+{
+  "name": "perkasa-cms",
+  "version": "1.0.8",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.7",
+    "@mui/styled-engine-sc": "^5.11.0",
+    "@mui/x-data-grid": "^5.17.22",
+    "@mui/x-data-grid-pro": "^5.17.23",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "dotenv": "^16.0.3",
+    "firebase": "^9.17.1",
+    "localforage": "^1.10.0",
+    "lodash": "^4.17.21",
+    "match-sorter": "^6.3.1",
+    "moment": "^2.29.4",
+    "mui-datatables": "^4.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-image-crop": "^10.0.9",
+    "react-router-dom": "^6.8.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.0",
+    "sort-by": "^1.2.0",
+    "styled-components": "^5.3.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start:dev": "NODE_ENV=dev npm run start --reset-cache",
+    "start:stg": "NODE_ENV=stg npm run start --reset-cache",
+    "start:prod": "NODE_ENV=prod npm run start --reset-cache",
+    "apply-target": "firebase target:apply hosting cms admin-pertubuhan-pribumi-perkasa"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
